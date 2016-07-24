@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  color: black;
+  background-color: #c7d96c;
+  font-family: 'Indie+Flower';
+  text-align: justify;
+}
+
+
+
+/** HEADER **/
+/**Color of the the nav bar y compris lorsquele menu est déroulé**/
+#header-nav{
+   background-color: #EE99AA;
+   border-radius: 0;
+   border:0;
+}
+
+
+/**Mise en forme du titre**/
+.navbar-brand h1 { 
+  font-family: 'Oswald', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+   margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+/***épaisseur des 3 lignes du boutton***/
+ .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  text-align: left;
+}
+
+/**Mise en page du menu déroulant**/
+#nav-list a {
+  color: #550011;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/***Changement de couleur lorsque mon curseur est sur la ligne du menu***/
+#nav-list a:hover {
+  background: #d7c630;
+}
+
+
+
+/**titre du corps de la page****/
+#menu{
+    text-align: center;
+    font-size: 1em;
+}
+
+.row {
+  width: 100%;
+}
+
+
+.column {
+   background-color: #29E000;
+   position: relative;
+   border: 1px solid black;
+   margin-top: 15px; /*separation between the boxes in the column**/
+   padding: 15px; /**cela permet de cadrer le texte à l'intérieur du box**/
+   border-radius: 5px;
+   margin-left: 15px; /**le box ne soit pas collé à la bordure**/
+ }
+
+
+.row h1{
+   text-align: center;
+}
+
+
+.divider{
+  border: 1px solid black;
+}
