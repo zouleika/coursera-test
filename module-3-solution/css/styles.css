@@ -82,6 +82,7 @@ body {
    padding: 15px; /**cela permet de cadrer le texte à l'intérieur du box**/
    border-radius: 5px;
    margin-left: 15px; /**le box ne soit pas collé à la bordure**/
+   height: 1000px;
  }
 
 
